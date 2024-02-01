@@ -1,9 +1,9 @@
-import styles from "./Description.module.css";
+import styles from "./Description.module.sass";
 
 export const Description = () => {
   return (
     <section>
-      <p style={styles.description}>
+      <p className={styles.description}>
         Audio Music Store es una tienda de música en línea que ofrece una amplia
         variedad de instrumentos musicales, accesorios y equipos de audio.
       </p>
